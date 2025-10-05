@@ -13,6 +13,9 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // To accept JSON data in the body
 
+const frontendURL = 'https://book-review-app-sigma.vercel.app/'; // Must be perfect!
+app.use(cors({ origin: frontendURL }));
+
 app.get('/', (req, res) => {
   res.send('API is running...');
 });
