@@ -13,7 +13,7 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // To accept JSON data in the body
 
-const frontendURL = 'https://book-review-app-sigma.vercel.app/'; // Must be perfect!
+const frontendURL = 'https://book-review-ejxb32n61-dhananjay-gaurs-projects.vercel.app/'; // Must be perfect!
 app.use(cors({ origin: frontendURL }));
 
 app.get('/', (req, res) => {
