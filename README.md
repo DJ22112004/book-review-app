@@ -64,7 +64,10 @@ You might notice that the component files (`.jsx`) don't use lots of `className`
 
 Think of our React components as having special style instructions written in a language called **Tailwind**. For our project to understand this language, it needed a **"Tailwind dictionary"** installed.
 
+<img width="1776" height="910" alt="image" src="https://github.com/user-attachments/assets/5a58ab9c-8475-453f-9d9a-59ffc3496434" />
+
 We ran into some issues with the local computer environment that prevented this "dictionary" from being installed correctly. It was like a delivery service that couldn't find our address.
 
 **Our Solution:**
 Instead of trying to fix the delivery, we just wrote out all the style rules ourselves in plain, simple CSS inside the `frontend/src/index.css` file. It achieves the same beautiful look, just in a more direct, manual way!
+<img width="1794" height="905" alt="image" src="https://github.com/user-attachments/assets/31c8b463-c857-4a5f-b7ba-238e49c79376" />
